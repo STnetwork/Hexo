@@ -11,6 +11,7 @@ taxonomy:
         - php
 visible: true
 template: item
+date: 2020-02-10
 ---
 
 ![CENTMINMOD](/images/centminmod.png "centminmod")

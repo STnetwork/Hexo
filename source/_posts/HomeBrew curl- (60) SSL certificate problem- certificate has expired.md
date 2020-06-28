@@ -1,4 +1,3 @@
-#HomeBrew curl: (60) SSL certificate problem: certificate has expired
 
 
 ```
