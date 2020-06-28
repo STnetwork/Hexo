@@ -1,16 +1,5 @@
 ---
 title: 'CENTMIN MOD LEMP WEB STACK - YUM Updates Auto - CentOS 7'
-media_order: centminmod.png
-featured_image: centminmod.png
-intro: 'Centmin Mod LEMP web stack auto installer takes the manual work out of the process and fully automates most of install, configuration, base optimisation and best recommended practices and settings for CentOS, Nginx HTTP/2 HTTPS, MariaDB MySQL, PHP, CSF Firewall security and other installed software. The whole process is done via the core centmin.sh shell based script.'
-published: true
-publish_date: '11-10-2018 13:37'
-taxonomy:
-    tag:
-        - CentOS
-        - php
-visible: true
-template: item
 date: 2020-02-10
 ---
 
