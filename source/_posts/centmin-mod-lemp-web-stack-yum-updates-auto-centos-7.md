@@ -1,6 +1,8 @@
 ---
-title: 'CENTMIN MOD LEMP WEB STACK - YUM Updates Auto - CentOS 7'
-date: 2020-02-10
+date: "2020-02-10"
+title: "CENTMIN MOD LEMP WEB STACK - YUM Updates Auto - CentOS 7"
+excerpt: "LEMP CentOS"
+tags: ["centos", "7.7.2003", "Yum"]
 ---
 
 ![CENTMINMOD](/images/centminmod.png "centminmod")
