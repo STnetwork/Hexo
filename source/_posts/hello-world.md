@@ -2,6 +2,8 @@
 title: Hello World
 
 ---
+![](/images/placeimg_1000_562_tech.jpg)
+
 "Good-bye, my son," she answered with a bow of strained stateliness.
 
 She was extremely annoyed at the tone he had adopted with her, and there was something in his look that had made her feel afraid.
