@@ -1,5 +1,5 @@
 ---
-title: OhMyZSH OSX
+title: OhMyZSH OSX + iTerm2 via Brew
 tags:
 - Homebrew
 - OSX
