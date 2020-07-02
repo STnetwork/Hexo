@@ -9,6 +9,8 @@ sections:
   label: Posts
   create: documents
   match: "*.md"
+  templates:
+  - post
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
