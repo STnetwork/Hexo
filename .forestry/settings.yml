@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: source/_posts
   label: Posts
@@ -11,6 +13,12 @@ sections:
   match: "*.md"
   templates:
   - post
+- type: heading
+  label: Config
+- type: document
+  path: _config.yml
+  label: Hexo
+  match: "**/*"
 upload_dir: source/images
 public_path: "/images"
 front_matter_path: ''
