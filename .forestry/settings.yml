@@ -18,7 +18,6 @@ sections:
 - type: document
   path: _config.yml
   label: Hexo
-  match: "**/*"
 upload_dir: source/images
 public_path: "/images"
 front_matter_path: ''
