@@ -12,7 +12,7 @@ sections:
   create: documents
   match: "*.md"
   templates:
-  - post
+  - blog-post
 - type: heading
   label: Config
 - type: document
