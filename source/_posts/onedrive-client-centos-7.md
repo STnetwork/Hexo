@@ -8,7 +8,7 @@ tags:
 
 ---
 
-```console
+```zsh
 yum install libcurl-devel
 yum install sqlite-devel
 curl -fsS https://dlang.org/install.sh | bash -s dmd
@@ -22,7 +22,7 @@ sudo make install
 
 \#Configure OneDrive
 
-```console
+```zsh
 onedrive
 mkdir -p ~/.config/onedrive
 cd onedrive
