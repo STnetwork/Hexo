@@ -29,7 +29,7 @@ Centmin Mod auto installs Nginx server on CentOS Linux with the following:
 
 Shell Based Menu :
 
-```bash
+```zsh
 --------------------------------------------------------
      Centmin Mod Menu 123.09beta01 centminmod.com
 --------------------------------------------------------
@@ -71,7 +71,9 @@ Enter option [ 1 - 24 ]
 
 It's much better to do `Yum update` before like that we save time.
 
-    yum -y update && yum -y upgrade
+```zsh
+yum -y update && yum -y upgrade
+```
 
 ***
 
@@ -79,67 +81,76 @@ It's much better to do `Yum update` before like that we save time.
 
 It's a quick curl installer method, it's easy just one line. This line will install automatically the lastest version.
 
-    yum -y update; curl -O https://centminmod.com/betainstaller.sh && chmod 0700 betainstaller.sh && bash betainstaller.sh
+```zsh
+yum -y update; curl -O https://centminmod.com/betainstaller.sh && chmod 0700 betainstaller.sh && bash betainstaller.sh
+```
 
 ### Edit color bash
 
 Personally, I like change the Color Bash, in this case, it will be in green. Edit `.bashrc` in your User folder, then reboot the machine to apply the color.
 
-``` 
+```zsh
 vim .bashrc
 export PS1="\e[1;32m[\u@\h \W]\$ \e[m "
 ```
 
 ### Add a Domain Name's Nginx Vhost Configuration
 
-    cd /usr/local/src/centminmod
-    ./centmin.sh
-    option #2
+```zsh
+cd /usr/local/src/centminmod
+./centmin.sh
+option #2
+```
 
 ### CENTMIN MOD Geting Started Guide
 
-    hostnamectl set-hostname stnetwork.fr
-    hostnamectl status
-    nano /etc/hosts
-    service network restart
+```zsh
+hostnamectl set-hostname stnetwork.fr
+hostnamectl status
+nano /etc/hosts
+service network restart
+```
 
 [CENTMIN MOD Geting Started Guide](https://centminmod.com/getstarted.html)
 
 ### Auto Updating Centmin Mod Code
 
-    mkdir -p /root/tools
-    nano /root/tools/updatecm.sh
-    #!/bin/bash
-    branchname=123.09beta01
-    cd /usr/local/src/centminmod
-    git stash
-    git pull
-    git log -1
-    
-    chmod +x /root/tools/updatecm.sh
-    15 */3 * * * /root/tools/updatecm.sh 2>/dev/null
+```zsh
+mkdir -p /root/tools
+nano /root/tools/updatecm.sh
+#!/bin/bash
+branchname=123.09beta01
+cd /usr/local/src/centminmod
+git stash
+git pull
+git log -1 
+chmod +x /root/tools/updatecm.sh
+15 */3 * * * /root/tools/updatecm.sh 2>/dev/null
+```
 
 ### Auto Yum - Yum Cron
 
-    yum -y install yum-cron
-    chkconfig yum-cron on
-    systemctl enable yum-cron.service
-    email_to=your@email.com
-    
-        EMAIL=your@email.com
-        sed -i "s|^email_to = root|email_to = ${EMAIL}|" /etc/yum/yum-cron.conf
-        sed -i 's|^update_messages = no|update_messages = yes|' /etc/yum/yum-cron.conf
-        sed -i 's|^download_updates = no|download_updates = yes|' /etc/yum/yum-cron.conf
-        sed -i 's|^apply_updates = no|apply_updates = yes|' /etc/yum/yum-cron.conf
-        sed -i 's|^emit_via = stdio|emit_via = email|' /etc/yum/yum-cron.conf
-    
-        sed -i "s|^email_to = root|email_to = ${EMAIL}|" /etc/yum/yum-cron-hourly.conf
-        sed -i 's|^update_cmd = default|update_cmd = security|' /etc/yum/yum-cron-hourly.conf
-        sed -i 's|^update_messages = no|update_messages = yes|' /etc/yum/yum-cron-hourly.conf
-        sed -i 's|^download_updates = no|download_updates = yes|' /etc/yum/yum-cron-hourly.conf
-        sed -i 's|^apply_updates = no|apply_updates = yes|' /etc/yum/yum-cron-hourly.conf
-        sed -i 's|^emit_via = stdio|emit_via = email|' /etc/yum/yum-cron-hourly.conf   
-    
-        egrep '^email_to|^update_messages|^download_updates|^apply_updates|^emit_via' /etc/yum/yum-cron.conf
-        egrep '^email_to|^update_cmd|^update_messages|^download_updates|^apply_updates|^emit_via' /etc/yum/yum-cron-hourly.conf
-        service yum-cron restart
+```zsh
+yum -y install yum-cron
+chkconfig yum-cron on
+systemctl enable yum-cron.service
+email_to=your@email.com
+```
+
+```zsh
+EMAIL=your@email.com
+sed -i "s|^email_to = root|email_to = ${EMAIL}|" /etc/yum/yum-cron.conf
+sed -i 's|^update_messages = no|update_messages = yes|' /etc/yum/yum-cron.conf
+sed -i 's|^download_updates = no|download_updates = yes|' /etc/yum/yum-cron.conf
+sed -i 's|^apply_updates = no|apply_updates = yes|' /etc/yum/yum-cron.conf
+sed -i 's|^emit_via = stdio|emit_via = email|' /etc/yum/yum-cron.conf
+sed -i "s|^email_to = root|email_to = ${EMAIL}|" /etc/yum/yum-cron-hourly.conf
+sed -i 's|^update_cmd = default|update_cmd = security|' /etc/yum/yum-cron-hourly.conf
+sed -i 's|^update_messages = no|update_messages = yes|' /etc/yum/yum-cron-hourly.conf
+sed -i 's|^download_updates = no|download_updates = yes|' /etc/yum/yum-cron-hourly.conf
+sed -i 's|^apply_updates = no|apply_updates = yes|' /etc/yum/yum-cron-hourly.conf
+sed -i 's|^emit_via = stdio|emit_via = email|' /etc/yum/yum-cron-hourly.conf   
+egrep '^email_to|^update_messages|^download_updates|^apply_updates|^emit_via' /etc/yum/yum-cron.conf
+egrep '^email_to|^update_cmd|^update_messages|^download_updates|^apply_updates|^emit_via' /etc/yum/yum-cron-hourly.conf
+service yum-cron restart
+```
