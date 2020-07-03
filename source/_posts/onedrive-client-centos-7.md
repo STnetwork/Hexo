@@ -32,9 +32,13 @@ nano ~/.config/onedrive/config
 
 Available options:
 
+```
 sync_dir: directory where the files will be synced
+```
 
+```
 skip_file: any files or directories that match this pattern will be skipped during sync.
+```
 
 For example,
 
@@ -42,7 +46,9 @@ If I want to sync everything except Confidential and Personal Folders
 
 \# Directory where the files will be synced
 
+```
 skip_dir = "example|example"
+```
 
 Note: after changing the sync list, you must perform a full synchronization by executing
 
