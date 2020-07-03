@@ -46,13 +46,14 @@ skip_dir = "example|example"
 
 Note: after changing the sync list, you must perform a full synchronization by executing
 
+```zsh
 onedrive --syncronise
+```
 
 \#Enable service as per the following:
 
-
+```zsh
 systemctl --user enable onedrive
-
 systemctl --user start onedrive
-
 systemctl status onedrive -l
+```
