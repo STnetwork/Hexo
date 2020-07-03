@@ -1,5 +1,5 @@
 ---
-date: 2020-07-01T22:00:00Z
+date: 2020-07-01T22:00:00.000+00:00
 title: OneDrive Client - CentOS 7
 excerpt: ''
 tags:
@@ -8,35 +8,27 @@ tags:
 
 ---
 
-    yum install libcurl-devel
-
-    yum install sqlite-devel
-
-    curl -fsS https://dlang.org/install.sh | bash -s dmd
-
-    source ~/dlang/dmd-2.092.1/activate
-
-    git clone https://github.com/abraunegg/onedrive.git
-
-    cd onedrive
-
-    .\configure
-
-    make
-
-    sudo make install
+```console
+yum install libcurl-devel
+yum install sqlite-devel
+curl -fsS https://dlang.org/install.sh | bash -s dmd
+source ~/dlang/dmd-2.092.1/activate
+git clone https://github.com/abraunegg/onedrive.git
+cd onedrive
+.\configure
+make
+sudo make install
+```
 
 \#Configure OneDrive
 
-    onedrive
-
-    mkdir -p ~/.config/onedrive
-
-    cd onedrive
-
-    cp ./config ~/.config/onedrive/config
-
-    nano ~/.config/onedrive/config
+```console
+onedrive
+mkdir -p ~/.config/onedrive
+cd onedrive
+cp ./config ~/.config/onedrive/config
+nano ~/.config/onedrive/config
+```
 
 Available options:
 
@@ -54,12 +46,13 @@ skip_dir = "example|example"
 
 Note: after changing the sync list, you must perform a full synchronization by executing
 
-    onedrive --syncronise
+onedrive --syncronise
 
 \#Enable service as per the following:
 
-    systemctl --user enable onedrive
 
-    systemctl --user start onedrive
+systemctl --user enable onedrive
 
-    systemctl status onedrive -l
+systemctl --user start onedrive
+
+systemctl status onedrive -l
