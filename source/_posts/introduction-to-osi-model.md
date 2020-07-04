@@ -1,5 +1,5 @@
 ---
-date: 2020-07-03T22:00:00Z
+date: 2020-07-03T22:00:00.000+00:00
 title: Network - Introduction to OSI Model
 excerpt: ''
 tags:
@@ -7,11 +7,11 @@ tags:
 - network
 
 ---
-
 ![/images/intro-osi-resized.png](https://app.forestry.io/sites/b0wk5w81s2namw/body-media//images/intro-osi-resized.png)
 
 The **OSI Model** when it was first created came out in two parts :
 
+```zsh
 * The **First part** was the **Abstract Model**.
 * The actual model with its seven layers.
 * The **Second part** was actually a **Set of specially created protocols**, that were designed to illustrate how the protocols would fit inside this **abstract model**.
@@ -21,6 +21,7 @@ The **OSI Model** when it was first created came out in two parts :
 * Stands for Open Systems Interconnection Reference Model.
 * Created as a Reference Model and Teaching aid.
 * Not intended to reflect any actual network architecture.
+```
 
 **Mnemonics** for memorizing these Layers in the proper order :
 
