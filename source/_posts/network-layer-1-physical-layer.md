@@ -9,7 +9,7 @@ tags:
 ---
 ![](/images/layer-1-osi_resized.png)
 
-```
+```zsh
 * Bottom Layer
 * Concerned with Physical transmission of raw Data.
 * Transmits data in form 1s and 0s.
