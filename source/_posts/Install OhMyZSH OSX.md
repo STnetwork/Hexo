@@ -1,4 +1,5 @@
 ---
+date: 2020-02-10
 title: OhMyZSH + iTerm2 via Brew - OSX
 tags:
 - Homebrew
