@@ -7,7 +7,7 @@ tags:
 - network
 
 ---
-![](/images/intro-osi.png)
+![](/images/intro-osi-resized.png)
 
 The **OSI Model** when it was first created came out in two parts :
 \* The First part was the **Abstract Model**.
