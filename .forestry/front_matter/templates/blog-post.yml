@@ -15,4 +15,5 @@ fields:
   name: tags
   label: tags
 pages:
+- source/_posts/introduction-to-osi-model.md
 - source/_posts/onedrive-client-centos-7.md
