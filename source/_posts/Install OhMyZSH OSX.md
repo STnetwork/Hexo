@@ -2,9 +2,9 @@
 date: 2020-02-10
 title: OSX - OhMyZSH + iTerm2 via Brew
 tags:
-- Homebrew
-- OSX
-- OhMyZSH
+- ohmyzsh
+- homebrew
+- osx
 
 ---
 ```
