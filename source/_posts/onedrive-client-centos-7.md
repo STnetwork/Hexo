@@ -62,6 +62,7 @@ Selective sync allows you to sync only specific files and directories.
 To enable selective sync create a file named `sync_list` in `~/.config/onedrive`.
 Each line of the file represents a relative path from your `sync_dir`. All files and directories not matching any line of the file will be skipped during all operations.
 Here is an example of `sync_list`:
+
 ```text
 # sync_list supports comments
 # Exclude my Backup folder
@@ -78,6 +79,7 @@ Codes
 Textbooks
 Year 2
 ```
+
 **Note:** after changing the sync_list, you must perform a full re-synchronization by adding `--resync` to your existing command line - for example: `onedrive --synchronize --resync`
 
 ### How to 'skip' directories from syncing?
