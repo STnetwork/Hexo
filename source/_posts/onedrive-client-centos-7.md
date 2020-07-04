@@ -48,21 +48,42 @@ sync_dir: directory where the files will be synced
 skip_file: any files or directories that match this pattern will be skipped during sync.
 ```
 
-For example,
+For example, if you want to sync everything except Confidential and Personal Folders
 
-If I want to sync everything except Confidential and Personal Folders
-
-\# Directory where the files will be synced
+### Directory where the files will be synced
 
 ```
 skip_dir = "example|example"
 ```
 
-Note: after changing the sync list, you must perform a full synchronization by executing
+### Selective sync via 'sync_list' file
 
-```zsh
-onedrive --syncronise
+Selective sync allows you to sync only specific files and directories.
+To enable selective sync create a file named `sync_list` in `~/.config/onedrive`.
+Each line of the file represents a relative path from your `sync_dir`. All files and directories not matching any line of the file will be skipped during all operations.
+Here is an example of `sync_list`:
+```text
+# sync_list supports comments
+# Exclude my Backup folder
+Backup
+# Exclude this single document
+Documents/latest_report.docx
+# Exclude all Work/Project directories
+Work/Project*
+notes.txt
+# Exclude /Blender in the ~OneDrive root but not if elsewhere
+/Blender
+Cinema Soc
+Codes
+Textbooks
+Year 2
 ```
+**Note:** after changing the sync_list, you must perform a full re-synchronization by adding `--resync` to your existing command line - for example: `onedrive --synchronize --resync`
+
+### How to 'skip' directories from syncing?
+There are several mechanisms available to 'skip' a directory from the sync process:
+*   Utilise 'skip_dir'
+*   Utilise 'sync_list'
 
 ## Enable service as per the following:
 
