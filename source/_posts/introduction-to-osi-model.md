@@ -10,10 +10,11 @@ tags:
 ![](/images/intro-osi-resized.png)
 
 The **OSI Model** when it was first created came out in two parts :
-\* The First part was the **Abstract Model**.
-\* The actual model with its seven layers.
-\* The Second part was actually a **Set of specially created protocols**, that was designed to illustrate how the protocols would fit inside this **abstract model**.
-\* Protocols not actually used in any network system.
+
+* The First part was the **Abstract Model**.
+* The actual model with its seven layers.
+* The Second part was actually a **Set of specially created protocols**, that was designed to illustrate how the protocols would fit inside this **abstract model**.
+* Protocols not actually used in any network system.
 
 
     * Devices to teach how protocols work with Networks to carry data.
