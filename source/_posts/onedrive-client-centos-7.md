@@ -1,12 +1,20 @@
 ---
 date: 2020-07-01T22:00:00.000+00:00
-title: OneDrive Client - CentOS 7
+title: CentOS 7 - OneDrive Client
 excerpt: ''
 tags:
 - onedrive
 - centos
 
 ---
+# OneDrive Client for Linux
+
+A free Microsoft OneDrive Client which supports OneDrive Personal, OneDrive for Business, OneDrive for Office365 and Sharepoint.
+
+This powerful and highly configurable client can run on all major Linux distributions, as a Docker container and on FreeBSD. It supports one-way and two-way sync capabilities and securely connects to Microsoft OneDrive services.
+
+
+## Setup
 
 ```zsh
 yum install libcurl-devel
@@ -20,7 +28,7 @@ make
 sudo make install
 ```
 
-\#Configure OneDrive
+## Configure OneDrive
 
 ```zsh
 onedrive
@@ -30,7 +38,7 @@ cp ./config ~/.config/onedrive/config
 nano ~/.config/onedrive/config
 ```
 
-Available options:
+### Available options:
 
 ```
 sync_dir: directory where the files will be synced
@@ -56,7 +64,7 @@ Note: after changing the sync list, you must perform a full synchronization by e
 onedrive --syncronise
 ```
 
-\#Enable service as per the following:
+## Enable service as per the following:
 
 ```zsh
 systemctl --user enable onedrive
