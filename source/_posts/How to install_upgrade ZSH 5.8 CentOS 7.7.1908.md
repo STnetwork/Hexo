@@ -1,11 +1,11 @@
 ---
 date: 2020-02-10
-title: How to install_upgrade ZSH 5.8 - CentOS 7
+title: CentOS 7 - How to install_upgrade ZSH 5.8
 tags:
+- zsh
 - centos
-- ZSH
----
 
+---
 ## ZSH 5.8 on CentOS 7
 
 ```
