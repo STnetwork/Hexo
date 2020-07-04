@@ -15,11 +15,13 @@ The **OSI Model** when it was first created came out in two parts :
 \* The Second part was actually a **Set of specially created protocols**, that was designed to illustrate how the protocols would fit inside this **abstract model**.
 \* Protocols not actually used in any network system.
 
+
     * Devices to teach how protocols work with Networks to carry data.
     * Model for organizations creating new protocols.
     * Stands for Open Systems Interconnection Reference Model.
     * Created as a Reference Model and Teaching aid.
     * Not intended to reflect any actual network architecture.
+
 
 **Mnemonics** for memorize these Layers in the proper order :
 
