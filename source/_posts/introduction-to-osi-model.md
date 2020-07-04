@@ -28,7 +28,7 @@ The **OSI Model** when it was first created came out in two parts :
 
 **Mnemonics** for memorize these Layers in the proper order :
 
-```
+```text
 * **A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing.
 * **P**lease **D**o **N**ot **T**hrow **S**ausage **P**izza **A**way
 ```
