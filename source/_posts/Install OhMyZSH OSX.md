@@ -1,12 +1,12 @@
 ---
 date: 2020-02-10
-title: OhMyZSH + iTerm2 via Brew - OSX
+title: OSX - OhMyZSH + iTerm2 via Brew
 tags:
-- Homebrew
-- OSX
-- OhMyZSH
----
+- ohmyzsh
+- homebrew
+- osx
 
+---
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```

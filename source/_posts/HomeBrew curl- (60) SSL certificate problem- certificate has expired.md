@@ -1,11 +1,11 @@
 ---
 date: 2020-02-10
-title: Homebrew curl- (60) SSL certificate problem - OSX
+title: OSX - Homebrew curl- (60) SSL certificate problem
 tags:
-- Homebrew
-- OSX
----
+- osx
+- homebrew
 
+---
 ```
 HOMEBREW_FORCE_BREWED_CURL=1 brew cask install srware-iron
 ```
