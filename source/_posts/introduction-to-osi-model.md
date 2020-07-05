@@ -1,10 +1,12 @@
 ---
 date: 2020-07-03T22:00:00.000+00:00
-title: Network - Introduction to OSI Model
+title: OSI Model - Introduction
 excerpt: ''
 tags:
+- systems
+- applications
+- networks
 - osi
-- network
 
 ---
 ![](/images/osi-model-7-layers.svg)
