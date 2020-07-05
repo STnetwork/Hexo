@@ -1,9 +1,11 @@
 ---
 date: 2020-07-04T22:00:00Z
-title: Network - Layer 3 - Network Layer OSI Model
+title: OSI Model - Layer 3 - Network Layer
 excerpt: ''
 tags:
-- network
+- networks
+- applications
+- systems
 - osi
 
 ---
