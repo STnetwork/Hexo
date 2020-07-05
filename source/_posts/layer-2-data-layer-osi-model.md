@@ -1,9 +1,11 @@
 ---
 date: 2020-07-04T22:00:00Z
-title: Network - Layer 2 - Data Layer OSI Model
+title: OSI Model - Layer 2 - Data Layer
 excerpt: ''
 tags:
-- network
+- applications
+- systems
+- networks
 - osi
 
 ---
