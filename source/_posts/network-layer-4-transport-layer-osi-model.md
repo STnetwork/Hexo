@@ -1,10 +1,12 @@
 ---
 date: 2020-07-04T22:00:00Z
-title: Network - Layer 4 - Transport Layer OSI Model
+title: OSI Model - Layer 4 - Transport Layer
 excerpt: ''
 tags:
+- applications
+- networks
+- systems
 - osi
-- network
 
 ---
 ![](/images/transport-osi-model-1.svg)
