@@ -1,6 +1,6 @@
 ---
 date: 2020-07-04T22:00:00Z
-title: OSI Model - Layer 5 - Presentation Layer
+title: OSI Model - Layer 6 - Presentation Layer
 excerpt: ''
 tags:
 - osi
