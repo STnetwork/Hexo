@@ -3,9 +3,6 @@ date: 2020-07-04T22:00:00Z
 title: OSI Model - Layer 1 - Physical Layer
 excerpt: ''
 tags:
-- systems
-- applications
-- networks
 - osi
 
 ---
