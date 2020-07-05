@@ -7,7 +7,8 @@ tags:
 - network
 
 ---
-![](/images/osi-model-7-layers.svg)![](/images/osi-model-7-layers.svg)
+![](/images/osi-model-7-layers.svg)
+
 
 The **OSI Model** when it was first created came out in two parts :
 
