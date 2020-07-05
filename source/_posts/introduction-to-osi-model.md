@@ -7,7 +7,7 @@ tags:
 - network
 
 ---
-![/images/intro-osi-resized.png](https://app.forestry.io/sites/b0wk5w81s2namw/body-media//images/intro-osi-resized.png)
+![](/images/osi-model-7-layers.svg)![](/images/osi-model-7-layers.svg)
 
 The **OSI Model** when it was first created came out in two parts :
 
