@@ -7,7 +7,7 @@ tags:
 - osi
 
 ---
-
+/images/data-osi-model-1.svg
 
 ```zsh
 * Provides error-free transmission from one node to the next over physical media.
