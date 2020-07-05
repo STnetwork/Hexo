@@ -7,7 +7,7 @@ tags:
 - osi
 
 ---
-![](/images/layer-1-osi_resized.png)
+![](/images/physical-osi-model-1.svg)
 
 ```zsh
 * Bottom Layer
