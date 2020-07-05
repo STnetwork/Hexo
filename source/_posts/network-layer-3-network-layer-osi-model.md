@@ -3,9 +3,6 @@ date: 2020-07-04T22:00:00Z
 title: OSI Model - Layer 3 - Network Layer
 excerpt: ''
 tags:
-- networks
-- applications
-- systems
 - osi
 
 ---
