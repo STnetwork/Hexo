@@ -1,13 +1,16 @@
 ---
 date: 2020-07-04T22:00:00Z
-title: Layer 2 - Data Layer OSI Model
+title: Network - Layer 2 - Data Layer OSI Model
 excerpt: ''
 tags:
 - network
 - osi
 
 ---
-/images/data-osi-model-1.svg
+![](/images/data-osi-model-1.svg)
+
+![](/images/2-data-link-layer.svg)
+
 
 ```zsh
 * Provides error-free transmission from one node to the next over physical media.
