@@ -9,6 +9,9 @@ tags:
 ---
 ![](/images/physical-osi-model-1.svg)
 
+![](/images/1-physical-layer.svg)
+
+
 ```zsh
 * Bottom Layer
 * Concerned with Physical transmission of raw Data.
