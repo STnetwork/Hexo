@@ -1,6 +1,6 @@
 ---
 date: 2020-07-03T22:00:00.000+00:00
-title: OSI Model - Introduction
+title: OSI Model
 excerpt: ''
 tags:
 - osi
