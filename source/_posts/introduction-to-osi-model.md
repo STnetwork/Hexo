@@ -8,7 +8,6 @@ tags:
 ---
 ![](/images/osi-model-7-layers.svg)
 
-# OSI Model
 
 ## Introduction
 
