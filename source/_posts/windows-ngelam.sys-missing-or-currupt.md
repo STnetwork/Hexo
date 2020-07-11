@@ -1,6 +1,6 @@
 ---
 date: 2020-07-11T00:00:00+02:00
-title: Windows - "windows\system32\drivers\ngelam.sys" missing, or corrupt
+title: Windows - windows\system32\drivers\ngelam.sys missing, or corrupt
 excerpt: ''
 tags: []
 
