@@ -1,6 +1,6 @@
 ---
 date: 2020-07-11T00:00:00+02:00
-title: WINDOWS - ngelam.sys missing or currupt
+title: Windows - ngelam.sys missing or currupt
 excerpt: ''
 tags: []
 
