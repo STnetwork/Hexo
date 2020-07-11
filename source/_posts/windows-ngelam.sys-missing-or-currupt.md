@@ -1,12 +1,10 @@
 ---
 date: 2020-07-11T00:00:00+02:00
-title: Windows - ngelam.sys missing or currupt
+title: Windows - windows\system32\drivers\ngelam.sys missing, or corrupt
 excerpt: ''
 tags: []
 
 ---
-# Windows\system32\drivers\ngelam.sys missing, or corrupt
-
 ## ELAM recovery
 
 By default, it is the responsibility of the 3rd party AV service to store a copy of the ELAM driver in the registry defined backup location, from where a copy of the ELAM driver can be obtained, in case the original file gets corrupted.
