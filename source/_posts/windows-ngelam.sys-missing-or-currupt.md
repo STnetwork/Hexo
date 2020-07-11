@@ -11,6 +11,6 @@ By default, it is the responsibility of the 3rd party AV service to store a copy
 
 ![](/images/image-14.png)
 
-This is usually the path 'C:\\Windows\\ELAMBKUP' defined in registry location 'HKLM\\SYSTEM\\CurrentControlSet\\Control\\EarlyLaunch' via reg_key BackupPath
+This is usually the path `C:\Windows\ELAMBKUP` defined in registry location `HKLM\SYSTEM\CurrentControlSet\Control\EarlyLaunch` via reg_key BackupPath
 
 ![](/images/image-15.png)
