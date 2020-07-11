@@ -5,7 +5,7 @@ excerpt: ''
 tags: []
 
 ---
-# Windows\\system32\\drivers\\ngelam.sys
+# Windows\system32\drivers\ngelam.sys
 
 ## ELAM recovery
 
