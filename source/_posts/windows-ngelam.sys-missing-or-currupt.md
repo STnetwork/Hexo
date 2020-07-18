@@ -13,4 +13,4 @@ By default, it is the responsibility of the 3rd party AV service to store a copy
 
 This is usually the path `C:\Windows\ELAMBKUP` defined in registry location `HKLM\SYSTEM\CurrentControlSet\Control\EarlyLaunch` via reg_key BackupPath
 
-![](/images/image-15.png)
+![](/images/image-15.png)![](/images/ngelam-copy.png)
