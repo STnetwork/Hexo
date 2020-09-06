@@ -16,6 +16,7 @@ fields:
   label: tags
 pages:
 - source/_posts/introduction-to-osi-model.md
+- source/_posts/network-intranets-extranets.md
 - source/_posts/onedrive-client-centos-7.md
 - source/_posts/tcp-ip-model.md
 - source/_posts/windows-ngelam.sys-missing-or-currupt.md
