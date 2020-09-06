@@ -1,6 +1,6 @@
 ---
 date: 2020-09-06T00:00:00+02:00
-title: Network - Intranets & Extranets
+title: Network - Internet, Intranets & Extranets
 excerpt: ''
 tags:
 - network
