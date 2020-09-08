@@ -71,4 +71,6 @@ Download the right ISO Image **"CentOS-7-x86_64-NetInstall-2003.iso"** from here
 
 ![](/images/12_finish_configuration.png)
 
+### Reboot
+
 ![](/images/13_reboot.png)
