@@ -26,3 +26,9 @@ PermitRootLogin yes
 ```
 
 Press Echap then type `:wq` & Press Enter
+
+To finish :
+
+```zsh
+systemctl restart sshd
+```
