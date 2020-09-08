@@ -9,13 +9,13 @@ tags:
 ---
 ## Introduction
 
-This is a step by step screenshots about how install CentOS 7.8.2003 with the Network Installation (NetInstall)
+This is a step by step screenshots about how to install CentOS 7.8.2003 with the Network Installation (NetInstall)
 
 ### Download CentOS 7.8.2003 NetInstall ISO :
 
 Download the right ISO Image "CentOS-7-x86_64-NetInstall-2003.iso" from here :
 
-CentOS 7.8.2003 x86_64 version
+[CentOS 7.8.2003 x86_64 version](http://isoredirect.centos.org/centos/7/isos/x86_64/ "CentOS 7.8.2003 x86_64 version")
 
 ![](/images/boot_iso_7-8-2003.gif)![](/images/1_welcome_languages.png)
 
