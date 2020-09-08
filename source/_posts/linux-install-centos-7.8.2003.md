@@ -37,11 +37,9 @@ Download the right ISO Image **"CentOS-7-x86_64-NetInstall-2003.iso"** from here
 
 ![](/images/5_network_hostname.png)
 
-### Configure Partitioning 1
+### Configure Destination Installation & Partitioning
 
 ![](/images/6_partitionning1.png)
-
-### Configure Partitioning 2
 
 ![](/images/6_partitionning2.png)
 
@@ -61,4 +59,14 @@ Download the right ISO Image **"CentOS-7-x86_64-NetInstall-2003.iso"** from here
 
 ### Begin Installation
 
-![](/images/10_begin_installation.png)![](/images/11_set_root_password.png)![](/images/11_set_root_password2.png)![](/images/12_finish_configuration.png)
+![](/images/10_begin_installation.png)
+
+### Set Root Password
+
+![](/images/11_set_root_password.png)
+
+![](/images/11_set_root_password2.png)
+
+### Finish Configuration
+
+![](/images/12_finish_configuration.png)
