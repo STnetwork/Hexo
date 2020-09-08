@@ -1,8 +1,9 @@
 ---
 date: 2020-07-01T22:00:00.000+00:00
-title: CentOS 7 - OneDrive Client
+title: Linux - CentOS 7 - OneDrive Client
 excerpt: ''
 tags:
+- linux
 - onedrive
 - centos
 
