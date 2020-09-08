@@ -13,7 +13,7 @@ tags:
 
 By default, the login root via SSH is disabled, follow the instruction to allow it.
 
-### Edit '/etc/ssh/sshd_config'
+### Edit `/etc/ssh/sshd_config`
 
 ```zsh
 vi /etc/ssh/sshd_config
@@ -25,4 +25,4 @@ Uncomment the line :
 PermitRootLogin yes
 ```
 
-Press Echap then type ':wq' & press Enter
+Press Echap then type `:wq` & Press Enter
