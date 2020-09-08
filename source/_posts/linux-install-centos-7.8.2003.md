@@ -1,6 +1,6 @@
 ---
 date: 2020-09-08T00:00:00+02:00
-title: Linux - Install CentOS 7.8.2003
+title: Linux - CentOS 7.8.2003 Install
 excerpt: ''
 tags:
 - centos
