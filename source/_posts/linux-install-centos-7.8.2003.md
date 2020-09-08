@@ -7,4 +7,3 @@ tags:
 - linux
 
 ---
-![](/images/boot_iso_7-8-2003.gif)
