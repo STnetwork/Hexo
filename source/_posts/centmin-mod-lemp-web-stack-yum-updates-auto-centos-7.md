@@ -1,8 +1,9 @@
 ---
 date: 2020-02-10
-title: CentOS 7 - CENTMIN MOD LEMP WEB STACK - YUM Updates Auto
+title: Linux - CentOS 7 - CENTMIN MOD LEMP WEB STACK - YUM Updates Auto
 excerpt: ''
 tags:
+- linux
 - lemp
 - centminmod
 - centos
