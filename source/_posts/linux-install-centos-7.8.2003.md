@@ -61,4 +61,4 @@ Download the right ISO Image **"CentOS-7-x86_64-NetInstall-2003.iso"** from here
 
 ### Begin Installation
 
-![](/images/10_begin_installation.png)
+![](/images/10_begin_installation.png)![](/images/11_set_root_password.png)![](/images/11_set_root_password2.png)![](/images/12_finish_configuration.png)
