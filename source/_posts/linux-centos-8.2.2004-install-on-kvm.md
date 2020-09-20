@@ -17,60 +17,42 @@ Download the right ISO Image CentOS-8.2.2004-x86_64-boot.iso from here :
 
 [CentOS-8.2.2004-x86_64](http://mirrors.atosworldline.com/public/centos/8.2.2004/isos/x86_64/ "CentOS-8.2.2004 x86_64 version")
 
-### Boot ISO :
+### Boot ISO & Select Language :
 
-![](/images/boot_iso_7-8-2003.gif)![](/images/1_welcome_languages.png)
-
-### Select Language
-
-![](/images/2_summary.png)
-
-### Setup Date & Time
-
-![](/images/3_date_time.png)
+![](/images/2020-09-14.png)
 
 ### Select Keyboard Layout
 
-![](/images/4_keyboard.png)
+![](/images/2020-09-14-2.png)
 
 ### Configure Network & Hostname
 
-![](/images/5_network_hostname.png)
+![](/images/2020-09-20-12_44_26-clipboard.png)
 
 ### Configure Destination Installation & Partitioning
 
-![](/images/6_partitionning1.png)
+![](/images/2020-09-14-5.png)
 
-![](/images/6_partitionning2.png)
+![](/images/2020-09-14-7.png)
+
+![](/images/2020-09-14-8.png)
 
 ### Configure Installation Source NetInstall URL
 
-![](/images/7_installation_source.png)
+![](/images/2020-09-14-11.png)
 
 ### Check Summary
 
-![](/images/8_summary1.png)
-
-![](/images/8_summary2.png)
+![](/images/2020-09-18.png)
 
 ### Configure Software Selection
 
-![](/images/9_software_selection.png)
+![](/images/2020-09-18-1.png)
 
 ### Begin Installation
 
-![](/images/10_begin_installation.png)
+![](/images/2020-09-18-2.png)
 
-### Set Root Password
+### Set Root Password & Reboot
 
-![](/images/11_set_root_password.png)
-
-![](/images/11_set_root_password2.png)
-
-### Finish Configuration
-
-![](/images/12_finish_configuration.png)
-
-### Reboot
-
-![](/images/13_reboot.png)
+![](/images/2020-09-18-3.png)
