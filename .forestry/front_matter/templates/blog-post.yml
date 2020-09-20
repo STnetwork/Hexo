@@ -18,6 +18,7 @@ pages:
 - source/_posts/introduction-to-osi-model.md
 - source/_posts/linux-centos-7-enable-root-login-via-ssh.md
 - source/_posts/linux-centos-8.2.2004-install-on-kvm.md
+- source/_posts/linux-csf-instead-of-firewalld-centos-8.md
 - source/_posts/linux-install-centos-7.8.2003.md
 - source/_posts/network-intranets-extranets.md
 - source/_posts/onedrive-client-centos-7.md
