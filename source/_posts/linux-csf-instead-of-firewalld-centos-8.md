@@ -1,5 +1,5 @@
 ---
-date: 2020-09-20T00:00:00+02:00
+date: 2020-09-21T00:00:00+02:00
 title: Linux - CSF instead of FirewallD - CentOS 8
 excerpt: ''
 tags:
@@ -10,6 +10,9 @@ tags:
 - centos
 
 ---
+
+![](/images/csf_firewall.png)
+
 ## Introduction :
 
 CentOS 8 has a default firewall application who is FirewallD.
@@ -90,7 +93,9 @@ Run the following command to restart the CSF firewall for changes to take effect
 ```zsh
 csf -r
 ```
+
 or
+
 ```zsh
 csf --restart
 ```
