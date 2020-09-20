@@ -1,5 +1,5 @@
 ---
-date: 2020-09-08T00:00:00.000+02:00
+date: 2020-09-20T00:00:00+02:00
 title: Linux - CentOS 8.2.2004 Install on KVM
 excerpt: ''
 tags:
@@ -11,11 +11,11 @@ tags:
 
 This is a step by step screenshots about how to install CentOS 7.8.2003 with the Network Installation (NetInstall).
 
-### Download CentOS 7.8.2003 NetInstall ISO :
+### Download CentOS 8.2.2004 NetInstall ISO :
 
-Download the right ISO Image **"CentOS-7-x86_64-NetInstall-2003.iso"** from here :
+Download the right ISO Image CentOS-8.2.2004-x86_64-boot.iso from here :
 
-[CentOS 7.8.2003 x86_64 version](http://isoredirect.centos.org/centos/7/isos/x86_64/ "CentOS 7.8.2003 x86_64 version")
+[CentOS-8.2.2004-x86_64](http://mirrors.atosworldline.com/public/centos/8.2.2004/isos/x86_64/ "CentOS-8.2.2004 x86_64 version")
 
 ### Boot ISO :
 
