@@ -1,6 +1,6 @@
 ---
 date: 2020-09-20T00:00:00+02:00
-title: Linux - CSF instead of Firewalld - CentOS 8
+title: Linux - CSF instead of FirewallD - CentOS 8
 excerpt: ''
 tags:
 - csf
