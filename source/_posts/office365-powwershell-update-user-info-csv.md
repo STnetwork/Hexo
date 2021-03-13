@@ -7,9 +7,9 @@ tags:
 - office365
 
 ---
+![](/images/office365_powershell_2.png)
+
 test
-
-
 
 ```zsh
 csf --restart
