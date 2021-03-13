@@ -11,6 +11,6 @@ tags:
 
 test
 
-```zsh
-csf --restart
+```powershell
+Import-Csv "import.csv" | ForEach {Set-MsolUser -UserPrincipalName $_.EMAIL_ADDRESS -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -StreetAddress $_.StreetAddress -City $_.City -PostalCode $_.PostalCode -Phone $_.Phone -MobilePhone $_.MobilePhone -Country $_.CountryOrRegion}
 ```
