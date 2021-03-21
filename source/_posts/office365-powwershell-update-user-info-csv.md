@@ -15,4 +15,4 @@ Import-Csv "import.csv" | ForEach {Set-MsolUser -UserPrincipalName $_.EMAIL_ADDR
 
 ![](/images/csv.png)
 
-{% zoom /images/csv.png [/images/csv.png] [CSV Model] %}
+{% zoom /images/csv.png [CSV Model Office365 User Info] %}
