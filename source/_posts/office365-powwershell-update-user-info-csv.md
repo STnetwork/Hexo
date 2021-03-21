@@ -13,6 +13,4 @@ tags:
 Import-Csv "import.csv" | ForEach {Set-MsolUser -UserPrincipalName $_.EMAIL_ADDRESS -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -StreetAddress $_.StreetAddress -City $_.City -PostalCode $_.PostalCode -Phone $_.Phone -MobilePhone $_.MobilePhone -Country $_.CountryOrRegion}
 ```
 
-![](/images/csv.png)
-
 {% zoom /images/csv.png [CSV Model Office365 User Info] %}
