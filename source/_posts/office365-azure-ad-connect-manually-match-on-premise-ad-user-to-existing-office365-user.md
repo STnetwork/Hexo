@@ -13,7 +13,7 @@ tags:
 ldifde -d “DistinguishedName of the user : example : CN=user,OU=test,OU=Users,test=DC=test,DC=local” -f “c:\temp\exporteduser.txt”
 ```
 
-![](/images/export_user.png)
+{% zoom /images/export_user.png [LDIFDE Export] %}
 
 ```powershell
 set-msoluser -userprincipalname user@example.com -ImmutableID tutCmzWErE+zYRZlFzK/1A==
