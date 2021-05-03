@@ -12,3 +12,6 @@ tags:
 ```powershell
 ldifde -d “DistinguishedName of the user : example : CN=user,OU=test,OU=Users,test=DC=test,DC=local” -f “c:\temp\exporteduser.txt”
 ```
+
+tt
+
