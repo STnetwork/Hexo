@@ -21,6 +21,7 @@ pages:
 - source/_posts/linux-csf-instead-of-firewalld-centos-8.md
 - source/_posts/linux-install-centos-7.8.2003.md
 - source/_posts/network-intranets-extranets.md
+- source/_posts/office365-azure-ad-connect-manually-match-on-premise-ad-user-to-existing-office365-user.md
 - source/_posts/office365-powwershell-update-user-info-csv.md
 - source/_posts/onedrive-client-centos-7.md
 - source/_posts/tcp-ip-model.md
