@@ -9,6 +9,8 @@ tags:
 - Office365
 
 ---
+![](/images/office365_powershell_2.png)
+
 ```powershell
 ldifde -d “DistinguishedName of the user : example : CN=user,OU=test,OU=Users,test=DC=test,DC=local” -f “c:\temp\exporteduser.txt”
 ```
