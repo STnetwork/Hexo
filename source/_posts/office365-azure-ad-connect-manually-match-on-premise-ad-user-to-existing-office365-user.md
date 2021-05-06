@@ -4,10 +4,10 @@ title: Azure AD Connect - Manually match On Premise AD-user to existing Office36
   user
 excerpt: ''
 tags:
-- PowerShell
-- Azure AD Connect
-- Azure AD
-- Office365
+- powershell
+- azure ad connect
+- azure ad
+- office365
 
 ---
 ![](/images/office365_powershell_2.png)
