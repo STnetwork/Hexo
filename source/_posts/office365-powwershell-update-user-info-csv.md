@@ -1,6 +1,6 @@
 ---
-date: 2021-03-13T00:00:00+01:00
-title: Office365 - PowwerShell - Update User Info CSV
+date: 2021-03-13T00:00:00.000+01:00
+title: 'Office365 - Bulk Update User Info CSV PowerShell '
 excerpt: ''
 tags:
 - powershell
