@@ -1,9 +1,10 @@
 ---
 date: 
-title: Office365 Azure AD Connect - Manually match On Premise AD-user to existing
-  Office365 user
+title: Azure AD Connect - Manually match On Premise AD-user to existing Office365
+  user
 excerpt: ''
 tags:
+- PowerShell
 - Azure AD Connect
 - Azure AD
 - Office365
