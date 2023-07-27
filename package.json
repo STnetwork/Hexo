@@ -11,6 +11,11 @@
   "hexo": {
     "version": "latest"
   },
+  
+"engines": {
+  "node": "18.x"
+},
+
   "dependencies": {
     "hexo": "7.0.0-rc2",
     "hexo-generator-archive": "2.0.0",
