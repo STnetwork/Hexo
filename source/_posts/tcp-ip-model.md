@@ -9,6 +9,8 @@ tags:
 _template: blog_post
 ---
 
+
+
 ![](/images/osi_compare_tcp.png)
 
     * Was created by the Department of Defense in the 1970s

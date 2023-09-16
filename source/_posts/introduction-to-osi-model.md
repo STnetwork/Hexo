@@ -7,6 +7,8 @@ tags:
 _template: blog_post
 ---
 
+
+
 ![](/images/osi-model-7-layers.svg)
 
 

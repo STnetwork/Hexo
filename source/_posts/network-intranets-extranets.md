@@ -7,6 +7,8 @@ tags:
 _template: blog_post
 ---
 
+
+
 ## Internet
 
     • Worldwide publically accessible infrastructure of cables, routers, switches, and servers.

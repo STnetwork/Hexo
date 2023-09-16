@@ -9,14 +9,16 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "latest"
+    "version": "7.0.0-rc2"
   },
   "engines": {
-    "node": "18.x"
+    "npm": "please-use-yarn",
+    "yarn": ">= 3.6.3"
   },
   "dependencies": {
     "@tinacms/cli": "^1.5.29",
     "hexo": "7.0.0-rc2",
+    "hexo-cli": "^4.3.1",
     "hexo-generator-archive": "2.0.0",
     "hexo-generator-category": "2.0.0",
     "hexo-generator-index": "3.0.0",

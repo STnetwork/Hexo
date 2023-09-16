@@ -8,6 +8,8 @@ tags:
 _template: blog_post
 ---
 
+
+
 ## Introduction
 
 This is a step by step screenshots about how to install CentOS 7.8.2003 with the Network Installation (NetInstall).
