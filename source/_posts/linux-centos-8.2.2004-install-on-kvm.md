@@ -1,12 +1,13 @@
 ---
-date: 2020-09-20T00:00:00+02:00
+date: 2020-09-19T22:00:00.000Z
 title: Linux - CentOS 8.2.2004 Install on KVM
 excerpt: ''
 tags:
-- centos
-- linux
-
+  - centos
+  - linux
+_template: blog_post
 ---
+
 ## Introduction
 
 This is a step by step screenshots about how to install CentOS 7.8.2003 with the Network Installation (NetInstall).

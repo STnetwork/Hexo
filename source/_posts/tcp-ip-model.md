@@ -1,13 +1,14 @@
 ---
-date: 2020-07-07T00:00:00+02:00
+date: 2020-07-06T22:00:00.000Z
 title: TCP/IP Model
 excerpt: ''
 tags:
-- model
-- ip
-- tcp
-
+  - model
+  - ip
+  - tcp
+_template: blog_post
 ---
+
 ![](/images/osi_compare_tcp.png)
 
     * Was created by the Department of Defense in the 1970s

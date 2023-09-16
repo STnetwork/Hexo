@@ -11,12 +11,11 @@
   "hexo": {
     "version": "latest"
   },
-  
-"engines": {
-  "node": "18.x"
-},
-
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
+    "@tinacms/cli": "^1.5.29",
     "hexo": "7.0.0-rc2",
     "hexo-generator-archive": "2.0.0",
     "hexo-generator-category": "2.0.0",
@@ -27,6 +26,7 @@
     "hexo-renderer-marked": "6.1.1",
     "hexo-renderer-stylus": "3.0.0",
     "hexo-server": "latest",
-    "hexo-tag-photozoom": "latest"
+    "hexo-tag-photozoom": "latest",
+    "tinacms": "^1.5.20"
   }
 }

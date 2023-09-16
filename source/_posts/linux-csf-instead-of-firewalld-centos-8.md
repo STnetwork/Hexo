@@ -1,15 +1,16 @@
 ---
-date: 2020-09-21T00:00:00+02:00
+date: 2020-09-20T22:00:00.000Z
 title: 'Linux - CentOS 8 - CSF Firewall instead of FirewallD - '
 excerpt: ''
 tags:
-- csf
-- firewalld
-- firewall
-- linux
-- centos
-
+  - csf
+  - firewalld
+  - firewall
+  - linux
+  - centos
+_template: blog_post
 ---
+
 
 ![](/images/csf_firewall.png)
 

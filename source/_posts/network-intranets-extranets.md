@@ -1,11 +1,12 @@
 ---
-date: 2020-09-06T00:00:00+02:00
-title: Network - Internet, Intranets & Extranets
+date: 2020-09-05T22:00:00.000Z
+title: 'Network - Internet, Intranets & Extranets'
 excerpt: ''
 tags:
-- network
-
+  - network
+_template: blog_post
 ---
+
 ## Internet
 
     • Worldwide publically accessible infrastructure of cables, routers, switches, and servers.

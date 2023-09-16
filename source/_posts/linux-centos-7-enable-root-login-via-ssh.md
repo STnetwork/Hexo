@@ -1,14 +1,15 @@
 ---
-date: 2020-09-08T00:00:00+02:00
+date: 2020-09-07T22:00:00.000Z
 title: Linux - CentOS 7 - Enable Root Login via SSH
 excerpt: ''
 tags:
-- vi
-- root
-- centos
-- linux
-
+  - vi
+  - root
+  - centos
+  - linux
+_template: blog_post
 ---
+
 ## Introduction
 
 By default, the login root via SSH is disabled, follow the instruction to allow it.

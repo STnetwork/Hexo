@@ -1,13 +1,14 @@
 ---
-date: 2020-07-01T22:00:00.000+00:00
+date: 2020-07-01T22:00:00.000Z
 title: Linux - CentOS 7 - OneDrive Client
 excerpt: ''
 tags:
-- linux
-- onedrive
-- centos
-
+  - linux
+  - onedrive
+  - centos
+_template: blog_post
 ---
+
 # OneDrive Client for Linux
 
 A free Microsoft OneDrive Client which supports OneDrive Personal, OneDrive for Business, OneDrive for Office365 and Sharepoint.

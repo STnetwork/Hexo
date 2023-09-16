@@ -1,11 +1,12 @@
 ---
-date: 2020-07-03T22:00:00.000+00:00
+date: 2020-07-03T22:00:00.000Z
 title: OSI Model
 excerpt: ''
 tags:
-- osi
-
+  - osi
+_template: blog_post
 ---
+
 ![](/images/osi-model-7-layers.svg)
 
 
