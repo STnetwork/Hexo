@@ -13,6 +13,7 @@ _template: blog_post
 
 
 
+
 ## Introduction
 
 By default, the login root via SSH is disabled, follow the instruction to allow it.
