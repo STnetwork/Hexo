@@ -11,10 +11,8 @@
   "hexo": {
     "version": "7.0.0-rc2"
   },
-  "engines": {
-    "npm": "please-use-yarn",
-    "yarn": ">= 3.6.3"
-  },
+"engines": { "node": "12.x" 
+},
   "dependencies": {
     "@tinacms/cli": "^1.5.29",
     "hexo": "7.0.0-rc2",
